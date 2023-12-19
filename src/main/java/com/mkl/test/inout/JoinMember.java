@@ -2,7 +2,7 @@ package com.mkl.test.inout;
 
 public class JoinMember {
 
-	private String joinID;
+	private String joinId;
 	private String joinPw;
 	private String joinName;
 	private String joinEmail;
@@ -13,18 +13,16 @@ public class JoinMember {
 	}
 	public JoinMember(String joinId, String joinPw, String joinName, String joinEmail) {
 		super();
-		this.joinID = joinId;
-		this.joinPw = joinId;
+		this.joinId = joinId;
+		this.joinPw = joinPw;
 		this.joinName = joinName;
 		this.joinEmail = joinEmail;
-		
 	}
-	
-	public String getJoinID() {
-		return joinID;
+	public String getJoinId() {
+		return joinId;
 	}
-	public void setJoinID(String joinID) {
-		this.joinID = joinID;
+	public void setJoinID(String joinId) {
+		this.joinId = joinId;
 	}
 	public String getJoinPw() {
 		return joinPw;
